@@ -2,6 +2,8 @@
 
 Just enjoy programming!
 
+Currently support CodeForces, QOJ, UVA, 洛谷 and 牛客.
+
 # Installation
 
 1. Install the browser extension [Tampermonkey](https://www.tampermonkey.net/)
