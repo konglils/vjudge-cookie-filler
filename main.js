@@ -49,6 +49,15 @@
   const _originOpen = XMLHttpRequest.prototype.open;
   const _originSend = XMLHttpRequest.prototype.send;
 
+  let loggingIn = false; // logging into OJ
+  let currentOJ = "";
+
+  window.addEventListener("focus", () => {
+    if (loggingIn) {
+      autoFill(currentOJ);
+    }
+  })
+
   XMLHttpRequest.prototype.open = function(method, url, async, user, password) {
     this._url = url;
     return _originOpen.apply(this, arguments);
@@ -138,6 +147,8 @@
 
   function loginToOJ(oj) {
     updateFailInfo(oj, oj + " verify failed");
+    loggingIn = true;
+    currentOJ = oj;
     GM_openInTab(OJ[oj].url, {
       active: true, // new tab
       insert: true, // insert right
@@ -160,6 +171,8 @@
     accountStatus.innerHTML = '<i class="fa fa-check text-success" title="" data-toggle="tooltip" data-original-title="Connected"></i>';
     accountInfo.innerHTML = info;
     removeAccount.style.display = "inline";
+
+    loggingIn = false;
   }
 
   function updateFailInfo(oj, info) {
@@ -171,5 +184,7 @@
     
     let fillRetry = document.getElementById("oj-login-retry");
     fillRetry.onclick = () => { autoFill(oj) };
+
+    loggingIn = false;
   }
 })();
