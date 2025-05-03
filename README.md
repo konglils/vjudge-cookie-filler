@@ -1,6 +1,6 @@
 # Description
 
-Just enjoy programming!
+VJudge Cookie Filler is a Tampermonkey extension, which can auto fill cookies for those OJ which can submit problems on Virtual Judge by using their cookies.
 
 Currently support CodeForces, QOJ, UVA, 洛谷 and 牛客.
 
@@ -14,8 +14,8 @@ Currently support CodeForces, QOJ, UVA, 洛谷 and 牛客.
 
 4. Create a new script which content is in main.js
 
-5. If you are using Chrome, developer mode should be enabled, see [here](https://www.tampermonkey.net/faq.php#Q209)
+5. If you are using browser base on Chrome, developer mode should be enabled, see [here](https://www.tampermonkey.net/faq.php#Q209)
 
 # Usage
 
-Let nature take its course.
+Let nature take its course, just enjoy programming!
