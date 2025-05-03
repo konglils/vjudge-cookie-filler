@@ -14,6 +14,8 @@ Currently support CodeForces, QOJ, UVA, 洛谷 and 牛客.
 
 4. Create a new script which content is in main.js
 
+5. If you are using Chrome, developer mode should be enabled, see [here](https://www.tampermonkey.net/faq.php#Q209)
+
 # Usage
 
 Let nature take its course.
