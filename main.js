@@ -25,6 +25,10 @@
       url: "https://codeforces.com/",
       cookieNames: ["JSESSIONID"],
     },
+    "Gym": {
+      url: "https://codeforces.com/",
+      cookieNames: ["JSESSIONID"],
+    },
     "QOJ": {
       url: "https://qoj.ac/",
       cookieNames: ["UOJSESSID"],
