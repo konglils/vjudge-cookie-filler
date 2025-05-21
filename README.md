@@ -1,21 +1,20 @@
-# Description
+[English](README.md) ｜ [中文](README.zh-CN.md)
 
-VJudge Cookie Filler is a Tampermonkey extension, which can auto fill cookies for those OJ which can submit problems on Virtual Judge by using their cookies.
+# VJudge Cookie Filler
 
-Currently support CodeForces, QOJ, UVA, 洛谷 and 牛客.
+**VJudge Cookie Filler** is a Tampermonkey script that automatically retrieves cookies from supported online judges (OJs) so you can submit problems to Virtual Judge using your own accounts.
 
-# Installation
+Currently supported OJs: Codeforces, QOJ, UVA, Luogu, and Nowcoder.  
+It's easy to add support for more OJs — welcome to submit PR.
 
-1. Install the browser extension [Tampermonkey](https://www.tampermonkey.net/)
+## Installation
 
-2. Make "Config mode" to be "Advanced" in Tampermonkey's settings
+1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension
+2. In Tampermonkey settings, switch "Config mode" to **Advanced**
+3. Make sure "Allow scripts to access cookies" is set to **All**
+4. [Install the script](https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.user.js)
+5. If you're using a Chromium-based browser, [enable developer mode](https://www.tampermonkey.net/faq.php#Q209)
 
-3. Ensure that "Allow scripts to access cookies" is set to "All"
+## Usage
 
-4. Create a new script which content is in main.js
-
-5. If you are using browser base on Chrome, developer mode should be enabled, see [here](https://www.tampermonkey.net/faq.php#Q209)
-
-# Usage
-
-Let nature take its course, just enjoy programming!
+When you're on a submission page, simply click "My Account" or "Archive". The script will automatically perform — no manual steps needed.

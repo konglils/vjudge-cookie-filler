@@ -1,20 +1,27 @@
 // ==UserScript==
-// @name         Virtual Judge Cookie Filler
-// @namespace    http://tampermonkey.net/
-// @version      2025-05-02
-// @description  Auto fill cookies for those OJ which can submit problems on VJ by using their cookies.
-// @author       konglils
-// @grant        GM_xmlhttpRequest
-// @grant        GM_openInTab
-// @grant        GM_cookie
-// @run-at       document-end
-// @connect      vjudge.net
-// @match        https://vjudge.net/*
-// @match        https://codeforces.com/*
-// @match        https://qoj.ac/*
-// @match        https://onlinejudge.org/*
-// @match        https://www.luogu.com.cn/*
-// @match        https://www.nowcoder.com/*
+// @name                VJudge Cookie Filler
+// @name:zh-CN          VJudge Cookie Filler
+// @version             1.0.0
+// @description         Auto fill cookies for those OJ which can submit problems on VJ by using their cookies.
+// @description:zh-CN   自动抓取允许在 VJ 上使用自己账号提交问题的 OJ 的 Cookie
+// @author              konglils
+// @license             MIT
+// @namespace           https://github.com/konglils/vjudge-cookie-filler
+// @homepageURL         https://github.com/konglils/vjudge-cookie-filler
+// @supportURL          https://github.com/konglils/vjudge-cookie-filler
+// @downloadURL         https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.user.js
+// @updateURL           https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.meta.js
+// @grant               GM_xmlhttpRequest
+// @grant               GM_openInTab
+// @grant               GM_cookie
+// @run-at              document-end
+// @connect             vjudge.net
+// @match               https://vjudge.net/*
+// @match               https://codeforces.com/*
+// @match               https://qoj.ac/*
+// @match               https://onlinejudge.org/*
+// @match               https://www.luogu.com.cn/*
+// @match               https://www.nowcoder.com/*
 // ==/UserScript==
 
 (function() {
