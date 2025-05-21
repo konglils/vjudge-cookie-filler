@@ -18,3 +18,7 @@ It's easy to add support for more OJs — welcome to submit PR.
 ## Usage
 
 When you're on a submission page, simply click "My Account" or "Archive". The script will automatically perform — no manual steps needed.
+
+## Script Homepage
+
+[Greasy Fork](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler)

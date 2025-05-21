@@ -17,3 +17,7 @@
 ## 使用方法
 
 打开支持的 OJ 提交页面后，点击 “My Account” 或 “Archive” ，脚本将自动运行，无需手动操作。
+
+## 脚本主页
+
+[油叉](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler)
