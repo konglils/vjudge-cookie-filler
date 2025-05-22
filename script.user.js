@@ -9,8 +9,6 @@
 // @namespace           https://github.com/konglils/vjudge-cookie-filler
 // @homepageURL         https://github.com/konglils/vjudge-cookie-filler
 // @supportURL          https://github.com/konglils/vjudge-cookie-filler
-// @downloadURL         https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.user.js
-// @updateURL           https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.meta.js
 // @grant               GM_xmlhttpRequest
 // @grant               GM_openInTab
 // @grant               GM_cookie
@@ -192,7 +190,7 @@
 
     accountStatus.innerHTML = '<i class="fa fa-exclamation-triangle text-danger" title="" data-toggle="tooltip" data-original-title="Disconnected. Please re-verify."></i>';
     accountInfo.innerHTML = `${info} <a href="javascript:void(0)" id="oj-login-retry">Retry</a> `;
-    
+
     let fillRetry = document.getElementById("oj-login-retry");
     fillRetry.onclick = () => { autoFill(oj) };
 
