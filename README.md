@@ -27,6 +27,8 @@ When you're on a VJudge Submit page, simply click "My Account" or "Archive". The
 
 <img width="1126" alt="179fc45e61661f60d2abe83cbdba1328" src="https://github.com/user-attachments/assets/d8f363db-7e9c-4458-a402-31416bc52f2d" />
 
+Your browser will pop up a new web page showing in which OJ you are trying to log, if you haven't log in yet. Just log in, close the page, and back to VJudge.
+
 ## Script Homepage
 
 [Greasy Fork](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler)
