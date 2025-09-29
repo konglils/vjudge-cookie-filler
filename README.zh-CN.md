@@ -26,6 +26,8 @@
 
 <img width="1126" alt="179fc45e61661f60d2abe83cbdba1328" src="https://github.com/user-attachments/assets/76e3320e-26b0-414f-96c5-a61ea972add0" />
 
+如果之前在你的浏览器上并未登录过该 OJ，此时浏览器会弹出 OJ 主页。在 OJ 上登录你的账号，然后关闭该页面，回到 VJudge 即可。
+
 ## 脚本主页
 
 [油叉](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler)
