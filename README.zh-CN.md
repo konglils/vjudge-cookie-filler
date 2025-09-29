@@ -31,3 +31,7 @@
 ## 脚本主页
 
 [油叉](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler) ｜ [脚本猫](https://scriptcat.org/zh-CN/script-show-page/3459)
+
+## 添加 OJ
+
+在 VJudge 提交页面的“更新”中可以查看该 OJ 需要的 Cookie 名，在脚本的 OJ 变量中添加该 OJ 的主页 URL 和所需的 Cookie 列表。然后在脚本元数据中添加一行 `@match OJ 主页通配符`。

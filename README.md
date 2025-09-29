@@ -32,3 +32,7 @@ Your browser will pop up a new web page showing in which OJ you are trying to lo
 ## Script Homepage
 
 [Greasy Fork](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler) ｜ [ScriptCat](https://scriptcat.org/zh-CN/script-show-page/3459)
+
+## Add OJ
+
+You can gain the cookies OJ needed on "Update" on the page of submit in VJudge, then add them and the main page url of OJ to script's OJ variable. After that, create a new line in script meta data: `@match OJ main page url with wildcard`.
