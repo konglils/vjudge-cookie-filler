@@ -30,4 +30,4 @@
 
 ## 脚本主页
 
-[油叉](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler)
+[油叉](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler) ｜ [脚本猫](https://scriptcat.org/zh-CN/script-show-page/3459)

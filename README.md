@@ -31,4 +31,4 @@ Your browser will pop up a new web page showing in which OJ you are trying to lo
 
 ## Script Homepage
 
-[Greasy Fork](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler)
+[Greasy Fork](https://greasyfork.org/zh-CN/scripts/536701-vjudge-cookie-filler) ｜ [ScriptCat](https://scriptcat.org/zh-CN/script-show-page/3459)
