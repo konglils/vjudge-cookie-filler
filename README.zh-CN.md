@@ -13,7 +13,7 @@
 2. 在油猴设置中将“配置模式”切换为 **高级**
 <img width="1275" alt="c1fa00003268cc303c401dd4b8122b2b" src="https://github.com/user-attachments/assets/30204e1a-af3c-49b4-905b-66d67e1080ed" />
 
-3. 确保“允许脚本访问 Cookie”设置为 **All**
+3. 确保“允许脚本访问 Cookie”设置为 **All**，并且保存
 <img width="1261" alt="8f9f3fc207f4b0803942f5bad9f982f2" src="https://github.com/user-attachments/assets/006faa6c-50eb-4d58-89ae-1f864df2769f" />
 
 4. 点击链接 [安装脚本](https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.user.js)

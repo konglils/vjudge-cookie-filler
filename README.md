@@ -14,7 +14,7 @@ It's easy to add support for more OJs — welcome to submit PR.
 2. In Tampermonkey settings, switch "Config mode" to **Advanced**
 <img width="1275" alt="64283956183d0e292307aa7f74749674" src="https://github.com/user-attachments/assets/9669c235-4d75-428d-b5e4-befdd04bd311" />
 
-3. Make sure "Allow scripts to access cookies" is set to **All**
+3. Make sure "Allow scripts to access cookies" is set to **All**, and then save
 <img width="1259" alt="728e5bed67efe01ba4ba6b2298a21256" src="https://github.com/user-attachments/assets/2a2d14e7-9418-4cae-a01d-8a2e80d171d3" />
 
 4. [Install the script](https://update.greasyfork.org/scripts/536701/VJudge%20Cookie%20Filler.user.js)

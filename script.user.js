@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name               VJudge Cookie Filler
 // @name:zh-CN         VJudge Cookie Filler
-// @version            1.0.1
+// @version            1.0.2
 // @description        Auto fill cookies for those OJ which can submit problems on VJ by using their cookies.
 // @description:zh-CN  自动抓取允许在 VJ 上使用自己账号提交问题的 OJ 的 Cookie
 // @author             konglils
@@ -14,6 +14,7 @@
 // @run-at             document-end
 // @connect            vjudge.net
 // @match              https://vjudge.net/*
+// @match              https://atcoder.jp/*
 // @match              https://codeforces.com/*
 // @match              https://qoj.ac/*
 // @match              https://onlinejudge.org/*
@@ -25,6 +26,10 @@
   'use strict';
 
   const OJ = {
+    "AtCoder": {
+      url: "https://atcoder.jp/",
+      cookieNames: ["REVEL_SESSION"],
+    },
     "CodeForces": {
       url: "https://codeforces.com/",
       cookieNames: ["JSESSIONID"],
@@ -89,7 +94,6 @@
           }
         }
 
-        // not login
         if (!isVerified && oj in OJ) {
           autoFill(oj);
         }
